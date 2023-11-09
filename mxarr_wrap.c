@@ -151,7 +151,7 @@
 # include <Python.h>
 # define _DEBUG 1
 #else
-# include <Python.h>
+# include <Python3.h>
 #endif
 
 /* -----------------------------------------------------------------------------
