@@ -30,6 +30,7 @@ class Database:
                     os.remove("mxarr.db")
 
         self.conn = sqlite3.connect("mxarr.db")
+        self.conn.execute('PRAGMA journal_mode=OFF')
 
     def create_tables(self):
         """
